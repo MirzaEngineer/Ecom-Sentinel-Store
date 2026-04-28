@@ -1,22 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Ecom-Sentinel-Store
 
-## Getting Started
+The high-conversion, premium storefront for the Ecom-Sentinel ecosystem. Designed with a focus on speed, aesthetics, and a seamless user shopping journey.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-```
+## ✨ UI/UX Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Sentinel Design System**: Built with **Shadcn/UI** for a consistent and professional aesthetic.
+* **Fluid Motion**: Immersive user experience powered by **Framer Motion** animations.
+* **Type-Safe Frontend**: Developed in **TypeScript** to eliminate runtime UI errors.
+* **Ultra-Responsive**: Mobile-first design using **Tailwind CSS** for all screen sizes.
+* **Instant State**: Global cart and user session management with **Redux Toolkit**.
 
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-product live link:https://tech-bazer-skshohagmiahs-projects.vercel.app/
+## 📂 Architecture
 
-## Deploy on Vercel
+- **/components**: Modular UI elements like Hero, Product Grid, and Cart.
+- **/hooks**: Custom React hooks for interacting with the Sentinel Backend.
+- **/store**: Redux slices for managing local shop state.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+**Developed by Mirza Usama | Full Stack Engineer**
